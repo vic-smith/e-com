@@ -24,10 +24,6 @@ Tag.init(
     underscored: true,
     modelName: "tag",
   },
-  {
-    sequelize: sequelize,
-    modelName: "tag",
-  }
 );
 
 module.exports = Tag;

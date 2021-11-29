@@ -36,10 +36,6 @@ ProductTag.init(
     underscored: true,
     modelName: "product_tag",
   },
-  {
-    sequelize: sequelize,
-    modelName: "product_tag",
-  }
 );
 
 module.exports = ProductTag;

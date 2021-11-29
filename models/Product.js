@@ -49,10 +49,6 @@ Product.init(
     underscored: true,
     modelName: "product",
   },
-  {
-    sequelize: sequelize,
-    modelName: "product",
-  }
 );
 
 module.exports = Product;
